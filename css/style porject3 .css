@@ -1,0 +1,41 @@
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative ;
+}
+/* section.ainmetion{
+    animation-name:ainmetion ;
+    animation-duration: 5s;
+    transform: ainmetion ;
+    margin-top: -60%;
+} */
+section .main{
+    background-color: rgba(255, 255, 255, 0.258);
+    animation-name:ainmetion ;
+    animation-duration: 2s;
+    transform: ainmetion ;
+}
+
+.font{
+    color: azure;
+    font-size: 20px;
+}
+ .checkstyle{
+    background-color: rgba(0, 0, 0, 0.667);
+    text-decoration: line-through;
+
+}
+@keyframes ainmetion {
+
+    25%{
+        margin-top: 50%;
+        
+    }
+    50%{
+
+    }
+    75%{
+
+    }
+}
